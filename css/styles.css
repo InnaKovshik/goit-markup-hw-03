@@ -48,6 +48,7 @@ body {
 .navigation-menu {
   list-style: none;
   display: block;
+  margin-left: 80px;
 }
 
 .portfolio-main {
