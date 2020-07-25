@@ -405,7 +405,6 @@ h2 {
 .client {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .client-list {
