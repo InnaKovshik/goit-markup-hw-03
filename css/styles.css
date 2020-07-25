@@ -43,6 +43,8 @@ body {
 .navigation-header {
   display: flex;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .navigation-menu {
@@ -126,6 +128,18 @@ body {
 
 .main-img {
   background: rgba(47, 48, 58, 0.8);
+  height: 600px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container {
+  align-items: center;
+  max-width: 696px;
+  max-height: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .btn-menu:focus,
@@ -144,10 +158,6 @@ body {
 }
 
 .main-title {
-  padding-top: 200px;
-  padding-bottom: 15px;
-  padding-left: 275px;
-  padding-right: 275px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -158,9 +168,6 @@ body {
 }
 
 .modal-btn {
-  margin-left: 485px;
-  margin-right: 485px;
-  margin-bottom: 200px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -337,6 +344,8 @@ h2 {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 
 .adress-footer-ul {
@@ -358,8 +367,9 @@ h2 {
   margin-left: 70px;
 }
 .footer-list {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  width: 270px;
+  height: auto;
+  margin-top: 30px;
 }
 
 .footer-mail,
